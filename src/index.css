@@ -1,0 +1,45 @@
+:root {
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #111;
+  background: #f0f0f0;
+  --surface: #fff;
+  --border: #d4d4d4;
+  --border-strong: #8a8a8a;
+  --muted: #5c5c5c;
+  --accent: #111;
+  --accent-soft: #e8e8e8;
+  --preview-bg: #e5e5e5;
+  --danger: #333;
+  --warn: #444;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+button {
+  font-family: inherit;
+}
+
+code {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+  background: #e5e5e5;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
